@@ -1,0 +1,32 @@
+
+body{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+
+}
+
+button{
+    font-size: 10em;
+    justify-content: center;
+ transition: all 0.2s;
+}
+
+button:hover{
+    transition: all 0.2s;
+    font-size: 11em;
+   border:  10px solid;
+   border-radius: 10px;
+   box-shadow: 5px -5px 5px rgb(10, 11, 52);
+}
+
+button:active{
+    transition: all 0.2s;
+    font-size: 9em;
+}
+
+#result{
+    font-size: 1em;
+
+}
